@@ -96,6 +96,7 @@ header > div {
     display: flex;
     align-items: center;
     gap: 20px;
+    gap: 0;
 }
 
 #navbar ul {
@@ -111,8 +112,7 @@ header > div {
     transition: all 0.3s ease;
     padding: 8px 16px;
     border-radius: 25px;
-    position: none
-    ;
+    
 }
 
 #navbar a:hover {
