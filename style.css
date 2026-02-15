@@ -96,7 +96,7 @@ header > div {
     display: flex;
     align-items: center;
     gap: 20px;
-    align-items: none;
+    left: 0%;
 }
 
 #navbar ul {
