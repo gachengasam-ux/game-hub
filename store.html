@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEHUB -store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- header -->
+    <section>
+        <div>
+            
+            <header>
+             <div class="title">
+             <img src=" assets/images/gamer.webp" alt="gamer" height="150" width="150">
+             <h1>GAMEHUB</h1>
+        
+        
+             </div>
+
+            <div class="navigation">
+             <nav id="navbar">
+                
+            <ul>
+                    
+            <li><a href="index.html">home</a></li>
+            <li><a href="store.html">store</a></li>
+            <li><a href="about.html">about</a></li>
+            
+           </ul>
+           <div> 
+            <span id="cart-count">0</span>
+           <div class="checkout"> 
+            <img src="assets/images/cart icon.png" alt="" height="40" width="40"><h1>checkout</h1>
+           </div>
+           </div>
+             </nav>
+             </div>
+             </header>
+        
+        </div>
+        
+      </section>
+
+    <!-- store -->
+     <main>
+     <section class="store-header">
+        <div class="container">
+        <h1>Game Store</h1>
+        <div class="store-filters">
+                <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="action">Action</option>
+                <option value="adventure">Adventure</option>
+                 <option value="puzzle">Puzzle</option>
+                 <option value="rpg">RPG</option> 
+                 </select>
+                 <input type="text" id="search-input" placeholder="Search games...">   
+        </div>
+        </div>
+
+     </section>
+
+     <section class="games-store">
+        <div class="container">
+            <div class="games-grid" id="store-games"></div>
+            <!-- games will be loaded by JS -->
+        </div>
+
+     </section>
+     <!-- Cart Modal -->
+        <div id="cartModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2> Your Cart <span id="modal-cart-count">0</span></h2>
+                <div id="cartItems"></div>
+                <div class="cart-total">
+                    <strong>Total: $<span id="cartTotal">0</span></strong>
+                </div>
+                <button onclick="checkout()">Checkout</button>
+            </div>
+        </div>
+     </main>
+    
+    <!-- footer -->
+     <footer>
+        <div class="container">
+            <p>&copy; 2026 GAMEHUB. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
