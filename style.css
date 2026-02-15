@@ -71,7 +71,7 @@ header {
     height: 3px;
     background: linear-gradient(90deg, #ff6b6b, #00b894);
     transition: width 0.3s ease;
-    display: none;
+    
 }
 
 .title:hover h1::after {
@@ -111,6 +111,7 @@ header > div {
     transition: all 0.3s ease;
     padding: 8px 16px;
     border-radius: 25px;
+    text-align: none;
 }
 
 #navbar a:hover {
