@@ -111,7 +111,7 @@ header > div {
     transition: all 0.3s ease;
     padding: 8px 16px;
     border-radius: 25px;
-    text-align: none;
+    text-shadow: none;
 }
 
 #navbar a:hover {
