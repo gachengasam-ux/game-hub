@@ -71,7 +71,7 @@ header {
     height: 3px;
     background: linear-gradient(90deg, #ff6b6b, #00b894);
     transition: width 0.3s ease;
-    background-image: none;
+    display: none;
 }
 
 .title:hover h1::after {
